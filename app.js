@@ -8,6 +8,7 @@ function clickFunction() {
     document.getElementById("check-out").innerHTML = "show less";
   } else {
     x.style.display = "";
+    document.getElementById("check-out").innerHTML = "show more";
   }
 }
 //Practice how to change attributes
@@ -52,5 +53,5 @@ function checkAttribute3() {
 
 let lastpart = document.getElementById("share");
 lastpart.addEventListener("click", function() {
-  alert("Share others' profile,this guy is newbie");
+  alert("Share others' profile,this guy is a NEWBIE");
 });
