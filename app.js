@@ -2,11 +2,12 @@
 function clickFunction() {
   let x = document.getElementById("after-extension");
 
-  if (x.style.display === "none") {
+  if (x.style.display === "") {
     x.style.display = "flex";
     x.style.justifyContent = "space-between";
+    document.getElementById("check-out").innerHTML = "show less";
   } else {
-    x.style.display = "none";
+    x.style.display = "";
   }
 }
 //Practice how to change attributes
@@ -48,3 +49,8 @@ function checkAttribute3() {
     b3.removeAttribute("open");
   }
 }
+
+let lastpart = document.getElementById("share");
+lastpart.addEventListener("click", function() {
+  alert("Share others' profile,this guy is newbie");
+});
