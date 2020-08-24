@@ -179,6 +179,12 @@ details p {
   margin-bottom: 40px;
 }
 
+.btn2:hover {
+  background: #f1c40f;
+}
+
+/* footer */
+
 .footer-last {
   border-top: 2px dotted #2c3e50;
 }
